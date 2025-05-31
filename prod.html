@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürünler - Baskı Bardak Dünyası</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Baskı Bardak Dünyası</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="products.html">Ürünler</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="cart.html" class="cart">🛒 Sepet (<span id="cart-count">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="products">
+    <div class="container">
+      <h2>Ürünlerimiz</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/bardak1.jpg" alt="Kupa Bardak">
+          <h3>Kupa Bardak</h3>
+          <p>29,90 TL</p>
+          <button class="btn add-to-cart" data-name="Kupa Bardak" data-price="29.90">Sepete Ekle</button>
+        </div>
+        <div class="product-card">
+          <img src="images/bardak2.jpg" alt="Sihirli Bardak">
+          <h3>Sihirli Bardak</h3>
+          <p>39,90 TL</p>
+          <button class="btn add-to-cart" data-name="Sihirli Bardak" data-price="39.90">Sepete Ekle</button>
+        </div>
+        <div class="product-card">
+          <img src="images/bardak3.jpg" alt="Termos Bardak">
+          <h3>Termos Bardak</h3>
+          <p>49,90 TL</p>
+          <button class="btn add-to-cart" data-name="Termos Bardak" data-price="49.90">Sepete Ekle</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Baskı Bardak Dünyası. Tüm Hakları Saklıdır.</p>
+    </div>
+  </footer>
+</body>
+</html>
